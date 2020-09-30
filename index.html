@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-height, initial-scale=1.0" />
+    <title>Saqlain | Web Developer and Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- Bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- iconify cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar my-navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#main"
+            ><h1 style="font-family: 'Staatliches', cursive;">Ali Raza</h1></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="iconify bar-icon"
+              data-icon="fa-solid:bars"
+              data-inline="false"
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#main">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main id="main">
+      <div
+        class="container text-left"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <h3>Hi,</h3>
+        <h1>
+          My name is
+          <span class="blue">Ali Raza,</span>
+        </h1>
+        <h1>
+          I'm a fullstack
+          <span class="blue">Web Developer</span>
+        </h1>
+        <br />
+        <a href="#portfolio" class="btn btn-primary p-3"
+          >Portfolio
+          <span
+            class="iconify bar-icon"
+            data-icon="fa-solid:arrow-right"
+            data-inline="false"
+          ></span
+        ></a>
+      </div>
+    </main>
+    <!-- main end -->
+
+    <!-- POrtfolio section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container" data-aos-duration="3000" data-aos="fade-right">
+        <h2 class="text-center">Portfolio</h2>
+        <hr />
+        <!-- portfolio cards grid -->
+        <div class="container mt-4 pt-4">
+          <div class="row text-center">
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="./assets/llogo.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Brain MERN stack Front End</h5>
+                  <p class="card-text">
+                    React-js based application Which I have build during Zero to mastery web development course.
+                  </p>
+<!--                   <a href="#" class="btn btn-primary">Visit site</a>
+ -->                  <a href="https://github.com/RazaMunir824/frontend-of-smartbrain" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="./assets/llogo.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Brain MERN stack Back End</h5>
+                  <p class="card-text">
+                    Nodejs and Mysql based Backend API for my smart brain app from zero to mastery course.
+                  </p>
+<!--                   <a href="#" class="btn btn-primary">Visit site</a>
+ -->                  <a href="https://github.com/RazaMunir824/backend-of-smartbrain" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="./assets/logo.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">RobertFriend App bu using React</h5>
+                  <p class="card-text">
+                    I can make RobertFriend App by using react.
+                    In which we can filter out robot by type there name respectively.
+                  </p>
+<!--                   <a href="https://razamunir824.github.io/RobotFriend_by_using_react/" class="btn btn-primary">Visit site</a>
+ -->                  <a href="https://github.com/RazaMunir824/RobotFriend_by_using_react" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- POrtfolio section -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container" data-aos-duration="3000" data-aos="fade-left">
+        <h2 class="text-center pt-5">About</h2>
+        <hr />
+        <!-- grid container -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs mx-auto">
+              <img
+                src="./assets/profile1.png"
+                alt="profile image"
+                class="rounded-circle img-fluid img-thumbnail mx-auto"
+                width="170"
+                height="60px"
+              />
+            </div>
+            <div class="col-xs mx-auto">
+              <p>
+                Hi! I am Ali Raza, a web designer/developer focused on crafting great web experiences.<br> 
+                Designing and Coding have been my passion since the days I started working with computers<br> 
+                 but I found myself into web design/development since 2017.<br>
+                  I enjoy creating beautifully designed, 
+                  intuitive and functional websites.<br> 
+                I done many samll project that boost my passion in this field. I work day/night for one project I remeber <br> 
+                that change my life & develop more interset in this field.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center mt-5">Skills</h2>
+        <hr />
+        <div class="container my-skills text-center">
+          <span
+            class="iconify mr-3"
+            data-icon="logos:react"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:nodejs"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:html-5"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:css-3"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:javascript"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:es6"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:redux"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:wordpress"
+            data-inline="false"
+          ></span>
+          <!-- <span
+            class="iconify mr-3"
+            data-icon="logos:sass"
+            data-inline="false"
+          ></span> -->
+          <span
+            class="iconify mr-3"
+            data-icon="logos:mongodb"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:mysql"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:php"
+            data-inline="false"
+          ></span>
+          <!-- <span
+            class="iconify mr-3"
+            data-icon="logos:webflow"
+            data-inline="false"
+          ></span> -->
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- footer -->
+    <footer id="contact">
+      <div class="container pt-2" data-aos="fade-up" data-aos-duration="3000">
+        <h2 class="text-center">Contact</h2>
+        <hr />
+        <div class="container pt-3">
+          <br />
+          <div class="icons text-center pt-5">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100016082326378"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:facebook"
+                data-inline="false"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/RazaMunir824"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:github"
+                data-inline="false"
+              ></span
+            ></a>
+           <!--  <a
+              target="_blank"
+              href="https://www.upwork.com/o/profiles/users/~0134c54cea5602c4fc/"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:upwork"
+                data-inline="false"
+              ></span
+            ></a> -->
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ali-raza-1b26171b0/"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:linkedin"
+                data-inline="false"
+              ></span
+            ></a>
+          </div>
+          <hr style="margin-top: 2rem;" />
+          <p class="text-center">
+            &copy; Made with Love by
+            <a href="https://github.com/RazaMunir824">Ali Raza</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap cdn -->
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom javascript -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
